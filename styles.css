@@ -1,0 +1,27 @@
+body {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.form-wrapper {
+    display: flex;
+    flex: 1 1 auto;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn-group {
+    width: 100%;
+}
+
+.card {
+    max-height: 300px;
+    overflow-y: auto;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+}
